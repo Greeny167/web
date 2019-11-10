@@ -1,46 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
 	<title>Test</title>
+	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/css_test.css">
+	<script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/js_test.js"></script>
+
 </head>
-
-<body class=wrapper >
-
-<div class="header" >
+<body>
+		<header>
 		<div class="banner">
 		<img src="./pics/banner.png">
 		<h1>English Online</h1>
 		<p>Hotline: 012345678 <br>Email: eng@gmail.com</p>
-		<a href="#" target="_blank"><img src="./pics/icon_login.png" alt="Profiles" height="60px" width="60px"></a>
+		<a href="./user-info.html" target="_blank"><img src="./img/avt.png" alt="Profiles" height="60px" width="60px"></a>
 		</div>
 		<div  class=menu-1>
 		<ul>
-			<li class="home"><a href="#">HOME</a></li>
-			<li class="test"><a href="./test.html">TEST</a>
+			<li class="home"><a href="./home.html">HOME</a></li>
+			<li class="test" data-type="all"><a href="./test.html">TEST</a>
 				<ul class="menu-item">
 					<li data-type="type1"><a href="#">Free Tests</a></li>
 					<li data-type="type2"><a href="#">My Tests</a></li>
 				</ul>
 			</li>
 			<li class="courses"><a href="#">COURSES</a>
-				<ul class="menu-item">
-					<li><a href="#">Level 1</a></li>
-					<li><a href="#">Level 2</a></li>
-					<li><a href="#">Level 3</a></li>
-					<li><a href="#">Level 4</a></li>
-			</ul>
 			</li>
 			<li class="about"><a href="#">ABOUT</a></li>
 			</ul>
 		</div>
-</div>
+</header>
 <div class=content>
-	
 		<ul class="menu"> 
 			<li data-type="type1">Free Tests</li>
 			<li data-type="type2">My Tests</li>
@@ -49,7 +42,7 @@
 	<div class="test-list">	
 			 <article id="3685" class="test-listing  type1 all">
 
-     			 <a class="test-title" href="#">Relative Pronouns</a>
+     			 <a class="test-title" href="./doing-test.html">General English</a>
 
     			  <div class="test-image">
     				    <a href="#"><img  src="img/1.png" ></a>
@@ -114,7 +107,5 @@
 	</div>
 	
 </div>
-	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="js/js_test.js"></script>
 </body>
 </html>

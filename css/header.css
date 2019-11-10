@@ -70,18 +70,6 @@ header li
     padding: 10px;
 
 }
-.menu-1 ul li:hover .menu-item
-{
-    position: relative;
-    z-index:2;
-    display: block;
-    color: #7eb9be;
-    float: left;
-    padding: 10px;
-     z-index:2;
-    background-color: #e9d8f4;
-    opacity: 0.85;
-}
 .banner > a
 {    
     position: absolute;
